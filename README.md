@@ -1,9 +1,9 @@
 #bomber
 
-how to install?
+##how to install?
 
-apt update
-apt upgrade
+###apt update
+###apt upgrade
 
 pip install python3
 
