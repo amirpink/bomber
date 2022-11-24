@@ -4,9 +4,13 @@ how to install?
 
 apt update
 
-apt upgrade
+apt upgrade 
 
-pip install python3
+apt install git
+
+apt install pip
+
+pkg install python3
 
 pip install tor
 
