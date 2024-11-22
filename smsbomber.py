@@ -38,10 +38,21 @@ f = ("5")
 number = input("|--->")
 a = ("0")
 A = j+b+j+f+g+g+d+f+a+b
+B = a+j+b+j+f+g+g+d+f+a+b
 print("————————————————")
 proxy = {"socks5": "127.0.0.1:9050"}
 while True:
     if number == A:
+        clear()
+        print("\n"+Fore.RED+"---------------------------------")
+        print(Fore.RED+"| Please Enter Another Number ! |")
+        print(Fore.RED+"---------------------------------"+"\n")
+        print(baner)
+        print(Fore.RED+"Enter Target Number" + Fore.GREEN + "\n________________" "\n|With Out 0    |" )
+        number = input("|--->")
+        A = j+b+j+f+g+g+d+f+a+b
+        print("————————————————")
+    if number == B:
         clear()
         print("\n"+Fore.RED+"---------------------------------")
         print(Fore.RED+"| Please Enter Another Number ! |")
